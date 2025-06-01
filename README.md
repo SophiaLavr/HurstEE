@@ -1,2 +1,4 @@
 # HurstEE
-We introduce an implementation of the Time-Averaged Mean Squared Displacement (TA-MSD) method, equivalent to the 2nd-order Generalized Hurst Exponent (GHE) method, as a non-trainable, differentiable layer in TensorFlow and PyTorch frameworks. 
+We introduce an implementation of the Time-Averaged Mean Squared Displacement (TA-MSD) method, equivalent to the 2nd-order Generalized Hurst Exponent (GHE) method, as a non-trainable, differentiable layer in TensorFlow and PyTorch frameworks. Our proposed layer effectively addresses the core challenges identified in the 2nd AnDi Challenge, including trajectory heterogeneity and short trajectory segments. The layer also seamlessly handles missing (NaN) values, facilitating integration into complex neural network architectures designed for analyzing heterogeneous trajectories. The proposed differentiable Hurst exponent estimation layer offers simplicity in deployment, eliminating the need for training and reducing computational overhead.
+
+![image](https://github.com/user-attachments/assets/0f4e84a8-6a19-47c7-9590-332b36b47773)
